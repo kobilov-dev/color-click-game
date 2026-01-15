@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+h1 {
+  color: #ff8c00;
+}
+
+#game-container {
+  margin: 20px auto;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.1s;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+#score {
+  font-size: 18px;
+  margin-top: 10px;
+}
